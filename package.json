@@ -1,0 +1,24 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "A capstone project for a online web dev bootcamp by Colt Steele",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joycechen914/YelpCamp.git"
+  },
+  "author": "Joyce Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joycechen914/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/joycechen914/YelpCamp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
