@@ -19,6 +19,7 @@ app.get("/campgrounds", function(req, res){
     res.render("campgrounds", {campgrounds: campgrounds});
 });
 
+// logic of making new campgrounds and redirect to /campgrounds
 app.post("/campgrounds", function(req, res){
     var name = req.body.name;
     var image = req.body.image;
@@ -27,6 +28,7 @@ app.post("/campgrounds", function(req, res){
     res.redirect("/campgrounds");
 });
 
+// shows the form that sends the post request 
 app.get("/campgrounds/new", function(req, res){
     res.render("new.ejs");
 });
